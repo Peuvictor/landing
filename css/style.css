@@ -1,0 +1,21 @@
+/* style.css */
+
+@import url('components/globals.css');
+@import url('components/banner.css');
+@import url('components/buttons.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+
+/* Custom design below */
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+}
